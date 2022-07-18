@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <th><label for="nome">Name:</label></th>
+                <td><input type="text" id="nome"></td>
+            </tr>
+            <tr>
+                <th><label for="class">Class:</label></th>
+                <td>
+                    <select id="class">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                  </select>
+                  Year  
+                </td>
+            </tr>
+            <tr>
+                <th><label for="qualification">Qualification:</label></th>
+                <td>
+                    <select id="qualification">
+                        <option value="B Tech">B Tech</option>
+                        <option value="Programming">Programming</option>
+                        <option value="A Science">A Science</option>
+                        <option value="B English">B English</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="email">Email:</label></th>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <th><label for="adress">Adress:</label></th>
+                <td><textarea name="adress" style="width:200px; height:80px;"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="uploas">Upload Photo:</label></th>
+                <td><button type="button">Choose File</button> No file selected</td>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>
+                <td><button type="button">Register</button> <button type="reset">Clear</button></td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>
