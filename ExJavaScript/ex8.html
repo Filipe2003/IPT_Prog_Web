@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+<body>
+    <script>
+    function pictureChangeOn()
+        {
+        document.getElementById('img1').src="https://static.globalnoticias.pt/oj/image.jpg?brand=OJ&type=generate&guid=9e5da334-a39d-4679-a51b-fdcdc561fbfd&w=768&h=512&t=20211118200724";
+        }
+        
+    function pictureChangeOff()
+        {
+        document.getElementById('img1').src="https://static.globalnoticias.pt/oj/image.jpg?brand=OJ&type=generate&guid=cc15469e-30ea-4cd3-bf74-e56c83df0d89&w=768&h=512&t=20220725173325";
+        }
+    </script>
+
+    <img id="img1" src="https://static.globalnoticias.pt/oj/image.jpg?brand=OJ&type=generate&guid=cc15469e-30ea-4cd3-bf74-e56c83df0d89&w=768&h=512&t=20220725173325">
+    <p><button type="button" id="on" onclick="pictureChangeOn()">Switch ON</button>
+    <button type="button" id="off" onclick="pictureChangeOff()">Switch OFF</button>
+</body>
+</html>
